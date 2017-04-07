@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 function App(){
     return (
         <div>
-            <h1>React</h1>
+            <h1>React todo</h1>
         </div>
     );
 }

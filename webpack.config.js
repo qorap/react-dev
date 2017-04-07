@@ -3,9 +3,8 @@ module.exports = {
 
     output: {
         filename: 'bundle.js',
-        path: './public'
-    },
-
+          },
+    watch: true,
     module: {
         loaders: [
             {
