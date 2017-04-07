@@ -2,7 +2,7 @@
   "name": "react-dev",
   "version": "1.0.0",
   "scripts": {
-    "bild": "webpack"
+    "postinstall": "webpack -p"
   },
 
   "repository": {
