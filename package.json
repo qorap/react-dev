@@ -1,22 +1,21 @@
 {
   "name": "react-dev",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bild": "webpack"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qorap/react-dev.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
+   "bugs": {
     "url": "https://github.com/qorap/react-dev/issues"
   },
   "homepage": "https://github.com/qorap/react-dev#readme",
+  "babel":{
+    "presets": ["es2015", "react"]
+  },
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
